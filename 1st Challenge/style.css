@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif ;
+}
+
+.container{
+    width: 1440px;
+    height: 130vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 330px;
+    height: 85vh;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.illustration img{
+    width: 330px;
+    height: 25%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.section h1{
+    font-size: 20px;
+    margin: 27px;
+    margin-bottom: 13px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.section p{
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 35px 0 35px;
+}
+
+.plane{
+    background-color: hsl(225, 100%, 98%);
+    margin: 15px 30px 15px 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.plane img{
+    width: 40px;
+    height: 40px;
+}
+
+.plane div{
+    margin: 0 40px 0 10px;
+}
+
+.plane h3{
+    font-size: 14px;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%)
+}
+
+.plane p{
+    font-size: 14px;
+    color:hsl(224, 23%, 55%)
+}
+
+.plane a{
+    color:hsl(245, 75%, 52%);
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.plane a:hover{
+    text-decoration: none;
+    color: hsl(223, 87%, 69%);
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.compelete{
+    width: 290px;
+    background-color:hsl(245, 75%, 52%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    box-shadow: 0 20px 20px hsl(224deg 23% 55% / 25%);
+    transition: 0.3s;
+}
+
+.compelete:hover{
+    background-color: hsl(223, 87%, 69%);
+}
+
+.cancel{
+    width: 290px;
+    background-color: transparent;
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+    padding: 15px;
+    border: none;
+}
+
+::selection{
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
